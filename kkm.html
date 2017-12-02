@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var nama
+        nama = prompt('siapa namamu?')
+        var nilai
+        nilai = prompt('berapa nilai nya?')
+        // Sangat baik  (A)  : nilai > 90
+        // Baik         (B)  : nilai > 80 && nilai < 90 || 80<nilai<90
+        // Cukup        (C)  : nilai >75
+        if (nilai > 90 && nilai < 100 || nilai==100 || nilai==90){
+            alert('"A" mantab! , pertahankan!')
+        }
+        else if (nilai >80 && nilai <90 || nilai==80){
+            alert('"B" wahh usaha bagus , tapi tingkatkan lagi ya..')
+        }
+        else if (nilai <80){
+            alert('"C" yah.. belajar lagi yaa')
+        }
+
+    </script>
+
+</body>
+</html>
